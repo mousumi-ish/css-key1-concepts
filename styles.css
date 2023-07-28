@@ -1,12 +1,18 @@
 body {
-  background-color: aquamarine;
+  color-scheme: dark light;
+  font-family: "Montserrat", sans-serif;
+}
+title {
+  color: red;
+  font-size: 200%;
 }
 p {
   color: darkblue;
   margin-left: 50px;
+  font-size: 200%;
 }
 h1 {
-  color: blue;
+  color: black;
   font-family: Arial;
   font-size: 300%;
   margin: 50px;
@@ -18,9 +24,37 @@ h4 {
   font-size: 100%;
   text-align: center;
 }
+h2 {
+  color: blue;
+  font-family: Arial;
+  font-size: 200%;
+  margin: 50px;
+  text-align: center;
+}
 label {
   color: blueviolet;
+
+  font-weight: bold;
+  display: block;
+  width: 150px;
+  float: left;
 }
 h3 {
   margin-left: 10px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
